@@ -1,8 +1,49 @@
 body {
-    background-image: url(assets/young-smiling-afro-american-cook-chef-uniform-holds-cake-plate-points-with-hand-isolated-white-wall.jpg);
-    background-size: contain;
+    font-family: sans-serif;
+    background-image: url(assets/background-image-1.avif);
+    background-size: cover;
+    padding: 20%;
 }
-img{
-    height: 202px;
-    width: 202px;
+img {
+    width: 120px;
+    height: 100px;
+}
+.menu {
+    background-color: rgb(244, 241, 237);
+    padding: 10px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+ .logo {
+padding: 25px;
+} 
+
+h1 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bizName {
+    width: 80%;
+     text-align: center;
+     padding-right: 20%;
+}
+.slogan {
+    font-style: italic;
+    margin-top: -30px;
+}
+hr {
+    height: 2.5px;
+    background-color: burlywood;
+}
+.puff-puff {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
 }
