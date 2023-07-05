@@ -4,20 +4,22 @@ body {
     background-size: cover;
     padding: 20%;
 }
+
 img {
     width: 120px;
     height: 100px;
 }
+
 .menu {
     background-color: rgb(244, 241, 237);
     padding: 10px;
 }
 
-
 header {
     display: flex;
     justify-content: space-between;
 }
+
  .logo {
 padding: 25px;
 } 
@@ -26,24 +28,129 @@ h1 {
     font-size: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 .bizName {
     width: 80%;
      text-align: center;
      padding-right: 20%;
 }
+
 .slogan {
     font-style: italic;
     margin-top: -30px;
 }
+
 hr {
     height: 2.5px;
     background-color: burlywood;
 }
-.puff-puff {
-    display: flex;
-    flex-direction: column;
+
+.line {
+    width: 5%;
+    margin: auto;
 }
 
 h2 {
     text-align: center;
+    margin-bottom: 5px;
 }
+
+section {
+    display: flex;
+    padding-left: 20px;
+}
+.puff-price, .cake-price {
+    width: 20%;
+    text-align: start;
+}
+
+.hide {
+    display: none;
+}
+.puff-puff-menu, .cake-menu {
+    width: 90%;
+    text-align: start;
+}
+
+.alert{
+    color: rgb(250, 134, 134);
+    font-weight: 600;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer {
+    margin-bottom: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        background-size: contain;
+        padding: 10%;
+    }
+    img {
+        width: 60px;
+        height: 50px;
+    }
+    
+    .menu {
+        padding: 5px;
+    }
+    
+    .logo {
+    padding: 10px;
+    } 
+    
+    h1 {
+        font-size: 33px;
+        margin-bottom: 5px;
+    }
+    
+    .slogan {
+        font-style: italic;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    section {
+        padding-left: 3px ;
+    }
+    
+    .puff-price {
+        width: 20%;
+        text-align: end;
+    }
+    .hide {
+        display: block;
+    }
+    .alert {
+        padding: 0;
+        font-weight: 500;
+    }
+    .hide-mobile {
+        display: none;
+        flex-wrap: wrap;
+    }
+    .cake-price {
+        width: 30%;
+        text-align: start;
+    }
+
+    .icons {
+        gap: 10px;
+    }
+}
+
+    
