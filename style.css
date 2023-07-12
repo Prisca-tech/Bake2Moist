@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-image: url(assets/background-image-1.avif);
+    background-color: black;
     background-size: cover;
     padding: 20%;
 }
@@ -13,6 +13,7 @@ img {
 .menu {
     background-color: rgb(244, 241, 237);
     padding: 10px;
+    border-radius: 8px;
 }
 
 header {
